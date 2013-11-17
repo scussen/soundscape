@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42F7D6CC183982C500B12FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CB183982C400B12FEC /* Foundation.framework */; };
+		42F7D6CE183982C500B12FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CD183982C500B12FEC /* CoreGraphics.framework */; };
+		42F7D6D0183982C500B12FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CF183982C500B12FEC /* UIKit.framework */; };
+		42F7D6D6183982C500B12FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D6D4183982C500B12FEC /* InfoPlist.strings */; };
+		42F7D6D8183982C500B12FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6D7183982C500B12FEC /* main.m */; };
+		42F7D6DC183982C500B12FEC /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6DB183982C500B12FEC /* SCAppDelegate.m */; };
+		42F7D6DF183982C500B12FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D6DD183982C500B12FEC /* Main.storyboard */; };
+		42F7D6E2183982C500B12FEC /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6E1183982C500B12FEC /* SCViewController.m */; };
+		42F7D6E4183982C500B12FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D6E3183982C500B12FEC /* Images.xcassets */; };
+		42F7D6EB183982C500B12FEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6EA183982C500B12FEC /* XCTest.framework */; };
+		42F7D6EC183982C500B12FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CB183982C400B12FEC /* Foundation.framework */; };
+		42F7D6ED183982C500B12FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CF183982C500B12FEC /* UIKit.framework */; };
+		42F7D6F5183982C500B12FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D6F3183982C500B12FEC /* InfoPlist.strings */; };
+		42F7D6F7183982C500B12FEC /* Sound_ScapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6F6183982C500B12FEC /* Sound_ScapeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42F7D6EE183982C500B12FEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42F7D6C0183982C400B12FEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42F7D6C7183982C400B12FEC;
+			remoteInfo = "Sound Scape";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42F7D6C8183982C400B12FEC /* Sound Scape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Scape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F7D6CB183982C400B12FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42F7D6CD183982C500B12FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42F7D6CF183982C500B12FEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42F7D6D3183982C500B12FEC /* Sound Scape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sound Scape-Info.plist"; sourceTree = "<group>"; };
+		42F7D6D5183982C500B12FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42F7D6D7183982C500B12FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42F7D6D9183982C500B12FEC /* Sound Scape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sound Scape-Prefix.pch"; sourceTree = "<group>"; };
+		42F7D6DA183982C500B12FEC /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		42F7D6DB183982C500B12FEC /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		42F7D6DE183982C500B12FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42F7D6E0183982C500B12FEC /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		42F7D6E1183982C500B12FEC /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		42F7D6E3183982C500B12FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42F7D6E9183982C500B12FEC /* Sound ScapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound ScapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42F7D6EA183982C500B12FEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		42F7D6F2183982C500B12FEC /* Sound ScapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sound ScapeTests-Info.plist"; sourceTree = "<group>"; };
+		42F7D6F4183982C500B12FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42F7D6F6183982C500B12FEC /* Sound_ScapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sound_ScapeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42F7D6C5183982C400B12FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F7D6CE183982C500B12FEC /* CoreGraphics.framework in Frameworks */,
+				42F7D6D0183982C500B12FEC /* UIKit.framework in Frameworks */,
+				42F7D6CC183982C500B12FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F7D6E6183982C500B12FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F7D6EB183982C500B12FEC /* XCTest.framework in Frameworks */,
+				42F7D6ED183982C500B12FEC /* UIKit.framework in Frameworks */,
+				42F7D6EC183982C500B12FEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42F7D6BF183982C400B12FEC = {
+			isa = PBXGroup;
+			children = (
+				42F7D6D1183982C500B12FEC /* Sound Scape */,
+				42F7D6F0183982C500B12FEC /* Sound ScapeTests */,
+				42F7D6CA183982C400B12FEC /* Frameworks */,
+				42F7D6C9183982C400B12FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42F7D6C9183982C400B12FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42F7D6C8183982C400B12FEC /* Sound Scape.app */,
+				42F7D6E9183982C500B12FEC /* Sound ScapeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42F7D6CA183982C400B12FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42F7D6CB183982C400B12FEC /* Foundation.framework */,
+				42F7D6CD183982C500B12FEC /* CoreGraphics.framework */,
+				42F7D6CF183982C500B12FEC /* UIKit.framework */,
+				42F7D6EA183982C500B12FEC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42F7D6D1183982C500B12FEC /* Sound Scape */ = {
+			isa = PBXGroup;
+			children = (
+				42F7D6DA183982C500B12FEC /* SCAppDelegate.h */,
+				42F7D6DB183982C500B12FEC /* SCAppDelegate.m */,
+				42F7D6DD183982C500B12FEC /* Main.storyboard */,
+				42F7D6E0183982C500B12FEC /* SCViewController.h */,
+				42F7D6E1183982C500B12FEC /* SCViewController.m */,
+				42F7D6E3183982C500B12FEC /* Images.xcassets */,
+				42F7D6D2183982C500B12FEC /* Supporting Files */,
+			);
+			path = "Sound Scape";
+			sourceTree = "<group>";
+		};
+		42F7D6D2183982C500B12FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F7D6D3183982C500B12FEC /* Sound Scape-Info.plist */,
+				42F7D6D4183982C500B12FEC /* InfoPlist.strings */,
+				42F7D6D7183982C500B12FEC /* main.m */,
+				42F7D6D9183982C500B12FEC /* Sound Scape-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42F7D6F0183982C500B12FEC /* Sound ScapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				42F7D6F6183982C500B12FEC /* Sound_ScapeTests.m */,
+				42F7D6F1183982C500B12FEC /* Supporting Files */,
+			);
+			path = "Sound ScapeTests";
+			sourceTree = "<group>";
+		};
+		42F7D6F1183982C500B12FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F7D6F2183982C500B12FEC /* Sound ScapeTests-Info.plist */,
+				42F7D6F3183982C500B12FEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42F7D6C7183982C400B12FEC /* Sound Scape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F7D6FA183982C500B12FEC /* Build configuration list for PBXNativeTarget "Sound Scape" */;
+			buildPhases = (
+				42F7D6C4183982C400B12FEC /* Sources */,
+				42F7D6C5183982C400B12FEC /* Frameworks */,
+				42F7D6C6183982C400B12FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sound Scape";
+			productName = "Sound Scape";
+			productReference = 42F7D6C8183982C400B12FEC /* Sound Scape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42F7D6E8183982C500B12FEC /* Sound ScapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42F7D6FD183982C500B12FEC /* Build configuration list for PBXNativeTarget "Sound ScapeTests" */;
+			buildPhases = (
+				42F7D6E5183982C500B12FEC /* Sources */,
+				42F7D6E6183982C500B12FEC /* Frameworks */,
+				42F7D6E7183982C500B12FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42F7D6EF183982C500B12FEC /* PBXTargetDependency */,
+			);
+			name = "Sound ScapeTests";
+			productName = "Sound ScapeTests";
+			productReference = 42F7D6E9183982C500B12FEC /* Sound ScapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42F7D6C0183982C400B12FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SC;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stephen Cussen";
+				TargetAttributes = {
+					42F7D6E8183982C500B12FEC = {
+						TestTargetID = 42F7D6C7183982C400B12FEC;
+					};
+				};
+			};
+			buildConfigurationList = 42F7D6C3183982C400B12FEC /* Build configuration list for PBXProject "Sound Scape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42F7D6BF183982C400B12FEC;
+			productRefGroup = 42F7D6C9183982C400B12FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42F7D6C7183982C400B12FEC /* Sound Scape */,
+				42F7D6E8183982C500B12FEC /* Sound ScapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42F7D6C6183982C400B12FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F7D6E4183982C500B12FEC /* Images.xcassets in Resources */,
+				42F7D6D6183982C500B12FEC /* InfoPlist.strings in Resources */,
+				42F7D6DF183982C500B12FEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F7D6E7183982C500B12FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F7D6F5183982C500B12FEC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42F7D6C4183982C400B12FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F7D6DC183982C500B12FEC /* SCAppDelegate.m in Sources */,
+				42F7D6E2183982C500B12FEC /* SCViewController.m in Sources */,
+				42F7D6D8183982C500B12FEC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42F7D6E5183982C500B12FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F7D6F7183982C500B12FEC /* Sound_ScapeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42F7D6EF183982C500B12FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42F7D6C7183982C400B12FEC /* Sound Scape */;
+			targetProxy = 42F7D6EE183982C500B12FEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42F7D6D4183982C500B12FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F7D6D5183982C500B12FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42F7D6DD183982C500B12FEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F7D6DE183982C500B12FEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42F7D6F3183982C500B12FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42F7D6F4183982C500B12FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42F7D6F8183982C500B12FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42F7D6F9183982C500B12FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42F7D6FB183982C500B12FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sound Scape/Sound Scape-Prefix.pch";
+				INFOPLIST_FILE = "Sound Scape/Sound Scape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42F7D6FC183982C500B12FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sound Scape/Sound Scape-Prefix.pch";
+				INFOPLIST_FILE = "Sound Scape/Sound Scape-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42F7D6FE183982C500B12FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sound Scape.app/Sound Scape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sound Scape/Sound Scape-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sound ScapeTests/Sound ScapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		42F7D6FF183982C500B12FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sound Scape.app/Sound Scape";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sound Scape/Sound Scape-Prefix.pch";
+				INFOPLIST_FILE = "Sound ScapeTests/Sound ScapeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42F7D6C3183982C400B12FEC /* Build configuration list for PBXProject "Sound Scape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F7D6F8183982C500B12FEC /* Debug */,
+				42F7D6F9183982C500B12FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42F7D6FA183982C500B12FEC /* Build configuration list for PBXNativeTarget "Sound Scape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F7D6FB183982C500B12FEC /* Debug */,
+				42F7D6FC183982C500B12FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42F7D6FD183982C500B12FEC /* Build configuration list for PBXNativeTarget "Sound ScapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F7D6FE183982C500B12FEC /* Debug */,
+				42F7D6FF183982C500B12FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42F7D6C0183982C400B12FEC /* Project object */;
+}
