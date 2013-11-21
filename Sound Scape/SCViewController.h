@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface SCViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *row3note5;
+- (IBAction)startNotePlay:(id)sender;
+- (IBAction)stopNotePlay:(id)sender;
+
 
 @end

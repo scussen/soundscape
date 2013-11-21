@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A72D11183BD49300B9B63A /* SCAudioController.m */; };
+		42A88CC6183AFAE20053A7B4 /* scratchFullSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */; };
 		42F7D6CC183982C500B12FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CB183982C400B12FEC /* Foundation.framework */; };
 		42F7D6CE183982C500B12FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CD183982C500B12FEC /* CoreGraphics.framework */; };
 		42F7D6D0183982C500B12FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CF183982C500B12FEC /* UIKit.framework */; };
@@ -21,6 +23,9 @@
 		42F7D6ED183982C500B12FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CF183982C500B12FEC /* UIKit.framework */; };
 		42F7D6F5183982C500B12FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D6F3183982C500B12FEC /* InfoPlist.strings */; };
 		42F7D6F7183982C500B12FEC /* Sound_ScapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6F6183982C500B12FEC /* Sound_ScapeTests.m */; };
+		42F7D7011839845900B12FEC /* scratch.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D7001839845900B12FEC /* scratch.png */; };
+		42F7D7051839A76E00B12FEC /* scratchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D7041839A76E00B12FEC /* scratchButton.png */; };
+		42F7D7071839AB1700B12FEC /* scratchButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D7061839AB1700B12FEC /* scratchButtonPressed.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42A72D10183BD49300B9B63A /* SCAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioController.h; sourceTree = "<group>"; };
+		42A72D11183BD49300B9B63A /* SCAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioController.m; sourceTree = "<group>"; };
+		42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchFullSet.png; sourceTree = "<group>"; };
 		42F7D6C8183982C400B12FEC /* Sound Scape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Scape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F7D6CB183982C400B12FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42F7D6CD183982C500B12FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,9 @@
 		42F7D6F2183982C500B12FEC /* Sound ScapeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sound ScapeTests-Info.plist"; sourceTree = "<group>"; };
 		42F7D6F4183982C500B12FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		42F7D6F6183982C500B12FEC /* Sound_ScapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sound_ScapeTests.m; sourceTree = "<group>"; };
+		42F7D7001839845900B12FEC /* scratch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratch.png; sourceTree = "<group>"; };
+		42F7D7041839A76E00B12FEC /* scratchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchButton.png; sourceTree = "<group>"; };
+		42F7D7061839AB1700B12FEC /* scratchButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchButtonPressed.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +123,17 @@
 		42F7D6D1183982C500B12FEC /* Sound Scape */ = {
 			isa = PBXGroup;
 			children = (
+				42F7D7001839845900B12FEC /* scratch.png */,
+				42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */,
+				42F7D7041839A76E00B12FEC /* scratchButton.png */,
+				42F7D7061839AB1700B12FEC /* scratchButtonPressed.png */,
 				42F7D6DA183982C500B12FEC /* SCAppDelegate.h */,
 				42F7D6DB183982C500B12FEC /* SCAppDelegate.m */,
 				42F7D6DD183982C500B12FEC /* Main.storyboard */,
 				42F7D6E0183982C500B12FEC /* SCViewController.h */,
 				42F7D6E1183982C500B12FEC /* SCViewController.m */,
+				42A72D10183BD49300B9B63A /* SCAudioController.h */,
+				42A72D11183BD49300B9B63A /* SCAudioController.m */,
 				42F7D6E3183982C500B12FEC /* Images.xcassets */,
 				42F7D6D2183982C500B12FEC /* Supporting Files */,
 			);
@@ -230,8 +247,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F7D6E4183982C500B12FEC /* Images.xcassets in Resources */,
+				42F7D7051839A76E00B12FEC /* scratchButton.png in Resources */,
 				42F7D6D6183982C500B12FEC /* InfoPlist.strings in Resources */,
+				42F7D7011839845900B12FEC /* scratch.png in Resources */,
 				42F7D6DF183982C500B12FEC /* Main.storyboard in Resources */,
+				42A88CC6183AFAE20053A7B4 /* scratchFullSet.png in Resources */,
+				42F7D7071839AB1700B12FEC /* scratchButtonPressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +273,7 @@
 			files = (
 				42F7D6DC183982C500B12FEC /* SCAppDelegate.m in Sources */,
 				42F7D6E2183982C500B12FEC /* SCViewController.m in Sources */,
+				42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */,
 				42F7D6D8183982C500B12FEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +483,7 @@
 				42F7D6FC183982C500B12FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42F7D6FD183982C500B12FEC /* Build configuration list for PBXNativeTarget "Sound ScapeTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +492,7 @@
 				42F7D6FF183982C500B12FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

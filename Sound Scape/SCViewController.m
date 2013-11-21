@@ -7,6 +7,7 @@
 //
 
 #import "SCViewController.h"
+#import "SCAudioController.h"
 
 @interface SCViewController ()
 
@@ -26,4 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)startNotePlay:(id)sender {
+}
+
+- (IBAction)stopNotePlay:(id)sender {
+}
 @end
