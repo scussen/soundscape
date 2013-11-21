@@ -10,5 +10,10 @@
 #import <AVFoundation/AVFoundation.h>
 
 @interface SCAudioController : NSObject <AVAudioSessionDelegate>
+@property (readwrite) AudioUnit samplerUnit;
+@property (readwrite) AudioUnit samplerUnit2;
+@property (readwrite)  BOOL bus1IsOn;
+@property (readwrite)  BOOL bus2IsOn;
 
+- (void) setupAudio;
 @end

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A72D11183BD49300B9B63A /* SCAudioController.m */; };
 		42A88CC6183AFAE20053A7B4 /* scratchFullSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */; };
+		42AAE40F183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE40E183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 */; };
 		42F7D6CC183982C500B12FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CB183982C400B12FEC /* Foundation.framework */; };
 		42F7D6CE183982C500B12FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CD183982C500B12FEC /* CoreGraphics.framework */; };
 		42F7D6D0183982C500B12FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CF183982C500B12FEC /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 		42A72D10183BD49300B9B63A /* SCAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioController.h; sourceTree = "<group>"; };
 		42A72D11183BD49300B9B63A /* SCAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioController.m; sourceTree = "<group>"; };
 		42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchFullSet.png; sourceTree = "<group>"; };
+		42AAE40E183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GUGS_Fluid_v1_44.sf2; sourceTree = "<group>"; };
 		42F7D6C8183982C400B12FEC /* Sound Scape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Scape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F7D6CB183982C400B12FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42F7D6CD183982C500B12FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42AAE40D183EB5100066C71F /* Sound Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				42AAE40E183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 */,
+			);
+			name = "Sound Fonts";
+			sourceTree = "<group>";
+		};
 		42F7D6BF183982C400B12FEC = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +133,7 @@
 		42F7D6D1183982C500B12FEC /* Sound Scape */ = {
 			isa = PBXGroup;
 			children = (
+				42AAE40D183EB5100066C71F /* Sound Fonts */,
 				42F7D7001839845900B12FEC /* scratch.png */,
 				42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */,
 				42F7D7041839A76E00B12FEC /* scratchButton.png */,
@@ -249,6 +260,7 @@
 				42F7D6E4183982C500B12FEC /* Images.xcassets in Resources */,
 				42F7D7051839A76E00B12FEC /* scratchButton.png in Resources */,
 				42F7D6D6183982C500B12FEC /* InfoPlist.strings in Resources */,
+				42AAE40F183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 in Resources */,
 				42F7D7011839845900B12FEC /* scratch.png in Resources */,
 				42F7D6DF183982C500B12FEC /* Main.storyboard in Resources */,
 				42A88CC6183AFAE20053A7B4 /* scratchFullSet.png in Resources */,

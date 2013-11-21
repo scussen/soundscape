@@ -12,24 +12,37 @@
 @interface SCAudioController ()
 @property (readwrite) Float64   graphSampleRate;
 @property (readwrite) AUGraph   processingGraph;
-@property (readwrite) AudioUnit samplerUnit;
-@property (readwrite) AudioUnit samplerUnit2;
 @property (readwrite) AudioUnit pitchEffectUnit;
 @property (readwrite) AudioUnit mixerUnit;
 @property (readwrite) AudioUnit ioUnit;
 
-@property (readwrite)  BOOL bus1IsOn;
-@property (readwrite)  BOOL bus2IsOn;
-
-- (void)    load2SoundFonts;
-- (void)    registerForUIApplicationNotifications;
+//- (void)    registerForUIApplicationNotifications;
 - (BOOL)    createAUGraph;
 - (void)    configureAndStartAudioProcessingGraph: (AUGraph) graph;
-- (void)    stopAudioProcessingGraph;
-- (void)    restartAudioProcessingGraph;
+- (void)    load2SoundFonts;
+//- (void)    stopAudioProcessingGraph;
+//- (void)    restartAudioProcessingGraph;
 @end
 
 @implementation SCAudioController
+
+- (void) setupAudio {
+    // Set up the audio session for this app, in the process obtaining the
+    // hardware sample rate for use in the audio processing graph.
+    BOOL audioSessionActivated = [self setupAudioSession];
+    NSAssert (audioSessionActivated == YES, @"Unable to set up audio session.");
+    
+    // Create the audio processing graph; place references to the graph and to the Sampler unit
+    // into the processingGraph and samplerUnit instance variables.
+    [self createAUGraph];
+    [self configureAndStartAudioProcessingGraph: self.processingGraph];
+    
+    [self load2SoundFonts];
+    
+    self.bus1IsOn = NO;
+    self.bus2IsOn = YES;
+}
+
 #pragma mark -
 #pragma mark Audio setup
 

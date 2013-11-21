@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="exb-Ry-4Wy">
-                                <rect key="frame" x="304" y="100" width="80" height="80"/>
+                                <rect key="frame" x="292" y="92" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Button" image="scratchButton.png">
@@ -35,13 +35,61 @@
                                     <action selector="stopNotePlay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Rcd-HY-Ptf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFB-p2-zEl">
+                                <rect key="frame" x="380" y="92" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Button" image="scratchButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="scratchButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragEnter" id="ZyT-5q-OPL"/>
+                                    <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDown" id="tMm-OF-20x"/>
+                                    <action selector="stopNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragExit" id="R6f-Nf-6bP"/>
+                                    <action selector="stopNotePlay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RNd-4d-Bc9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXX-gW-fHu">
+                                <rect key="frame" x="468" y="92" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Button" image="scratchButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="scratchButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragEnter" id="RJ9-Ju-GP4"/>
+                                    <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDown" id="mtK-LA-Mo2"/>
+                                    <action selector="stopNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragExit" id="2SO-nY-xf0"/>
+                                    <action selector="stopNotePlay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fRK-Lk-rMV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uY6-nY-aUX">
+                                <rect key="frame" x="204" y="92" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Button" image="scratchButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="scratchButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragEnter" id="D6G-NO-wys"/>
+                                    <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDown" id="cwl-DN-MbU"/>
+                                    <action selector="stopNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragExit" id="0TA-Ge-Vxs"/>
+                                    <action selector="stopNotePlay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zpY-tl-P2l"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="row3note4" destination="uY6-nY-aUX" id="Hpt-HY-u8T"/>
                         <outlet property="row3note5" destination="exb-Ry-4Wy" id="EG5-eZ-kRg"/>
+                        <outlet property="row3note6" destination="EFB-p2-zEl" id="Rre-Yg-g42"/>
+                        <outlet property="row3note7" destination="qXX-gW-fHu" id="lnQ-0Q-ZFF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -71,7 +119,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pmg-ZI-V4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="-230"/>
+            <point key="canvasLocation" x="84" y="-178"/>
         </scene>
     </scenes>
     <resources>
