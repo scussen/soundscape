@@ -39,10 +39,10 @@
                                 <rect key="frame" x="380" y="92" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Button" image="scratchButton.png">
+                                <state key="normal" title="Button" image="mustardButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="scratchButtonPressed.png"/>
+                                <state key="highlighted" image="mustardButtonPressed.png"/>
                                 <connections>
                                     <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragEnter" id="ZyT-5q-OPL"/>
                                     <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDown" id="tMm-OF-20x"/>
@@ -54,10 +54,10 @@
                                 <rect key="frame" x="468" y="92" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Button" image="scratchButton.png">
+                                <state key="normal" title="Button" image="limeButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="scratchButtonPressed.png"/>
+                                <state key="highlighted" image="limeButtonPressed.png"/>
                                 <connections>
                                     <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragEnter" id="RJ9-Ju-GP4"/>
                                     <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDown" id="mtK-LA-Mo2"/>
@@ -69,10 +69,10 @@
                                 <rect key="frame" x="204" y="92" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Button" image="scratchButton.png">
+                                <state key="normal" title="Button" image="purpleButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="highlighted" image="scratchButtonPressed.png"/>
+                                <state key="highlighted" image="purpleButtonPressed.png"/>
                                 <connections>
                                     <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDragEnter" id="D6G-NO-wys"/>
                                     <action selector="startNotePlay:" destination="vXZ-lx-hvc" eventType="touchDown" id="cwl-DN-MbU"/>
@@ -123,6 +123,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="limeButton.png" width="120" height="120"/>
+        <image name="limeButtonPressed.png" width="120" height="120"/>
+        <image name="mustardButton.png" width="120" height="120"/>
+        <image name="mustardButtonPressed.png" width="120" height="120"/>
+        <image name="purpleButton.png" width="120" height="120"/>
+        <image name="purpleButtonPressed.png" width="120" height="120"/>
         <image name="scratch.png" width="1136" height="640"/>
         <image name="scratchButton.png" width="120" height="120"/>
         <image name="scratchButtonPressed.png" width="120" height="120"/>

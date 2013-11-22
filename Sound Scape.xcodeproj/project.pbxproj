@@ -10,6 +10,20 @@
 		42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A72D11183BD49300B9B63A /* SCAudioController.m */; };
 		42A88CC6183AFAE20053A7B4 /* scratchFullSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */; };
 		42AAE40F183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE40E183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 */; };
+		42AAE41D183EFEBA0066C71F /* mustardButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE41C183EFEBA0066C71F /* mustardButtonPressed.png */; };
+		42AAE423183F00980066C71F /* mustardButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE422183F00980066C71F /* mustardButton.png */; };
+		42AAE427183F01C60066C71F /* limeButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE426183F01C60066C71F /* limeButtonPressed.png */; };
+		42AAE432183F05370066C71F /* tourquoiseButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE42A183F05370066C71F /* tourquoiseButtonPressed.png */; };
+		42AAE434183F05370066C71F /* greenButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE42C183F05370066C71F /* greenButtonPressed.png */; };
+		42AAE437183F05370066C71F /* purpleButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE42F183F05370066C71F /* purpleButtonPressed.png */; };
+		42AAE438183F05370066C71F /* blueButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE430183F05370066C71F /* blueButtonPressed.png */; };
+		42AAE43B183F05420066C71F /* redButtonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE439183F05420066C71F /* redButtonPressed.png */; };
+		42AAE43C183F05420066C71F /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE43A183F05420066C71F /* redButton.png */; };
+		42AAE43E183F08FC0066C71F /* purpleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE43D183F08FC0066C71F /* purpleButton.png */; };
+		42AAE440183F09E30066C71F /* limeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE43F183F09E30066C71F /* limeButton.png */; };
+		42AAE442183F09FB0066C71F /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE441183F09FB0066C71F /* greenButton.png */; };
+		42AAE444183F0A330066C71F /* tourquoiseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE443183F0A330066C71F /* tourquoiseButton.png */; };
+		42AAE446183F0A3D0066C71F /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE445183F0A3D0066C71F /* blueButton.png */; };
 		42F7D6CC183982C500B12FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CB183982C400B12FEC /* Foundation.framework */; };
 		42F7D6CE183982C500B12FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CD183982C500B12FEC /* CoreGraphics.framework */; };
 		42F7D6D0183982C500B12FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CF183982C500B12FEC /* UIKit.framework */; };
@@ -44,6 +58,20 @@
 		42A72D11183BD49300B9B63A /* SCAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioController.m; sourceTree = "<group>"; };
 		42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchFullSet.png; sourceTree = "<group>"; };
 		42AAE40E183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = GUGS_Fluid_v1_44.sf2; sourceTree = "<group>"; };
+		42AAE41C183EFEBA0066C71F /* mustardButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mustardButtonPressed.png; sourceTree = "<group>"; };
+		42AAE422183F00980066C71F /* mustardButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mustardButton.png; sourceTree = "<group>"; };
+		42AAE426183F01C60066C71F /* limeButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = limeButtonPressed.png; sourceTree = "<group>"; };
+		42AAE42A183F05370066C71F /* tourquoiseButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourquoiseButtonPressed.png; sourceTree = "<group>"; };
+		42AAE42C183F05370066C71F /* greenButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonPressed.png; sourceTree = "<group>"; };
+		42AAE42F183F05370066C71F /* purpleButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleButtonPressed.png; sourceTree = "<group>"; };
+		42AAE430183F05370066C71F /* blueButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonPressed.png; sourceTree = "<group>"; };
+		42AAE439183F05420066C71F /* redButtonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButtonPressed.png; sourceTree = "<group>"; };
+		42AAE43A183F05420066C71F /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		42AAE43D183F08FC0066C71F /* purpleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleButton.png; sourceTree = "<group>"; };
+		42AAE43F183F09E30066C71F /* limeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = limeButton.png; sourceTree = "<group>"; };
+		42AAE441183F09FB0066C71F /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		42AAE443183F0A330066C71F /* tourquoiseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourquoiseButton.png; sourceTree = "<group>"; };
+		42AAE445183F0A3D0066C71F /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		42F7D6C8183982C400B12FEC /* Sound Scape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Scape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F7D6CB183982C400B12FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42F7D6CD183982C500B12FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -100,6 +128,31 @@
 			name = "Sound Fonts";
 			sourceTree = "<group>";
 		};
+		42AAE428183F04850066C71F /* Button Images */ = {
+			isa = PBXGroup;
+			children = (
+				42F7D7001839845900B12FEC /* scratch.png */,
+				42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */,
+				42F7D7041839A76E00B12FEC /* scratchButton.png */,
+				42F7D7061839AB1700B12FEC /* scratchButtonPressed.png */,
+				42AAE43A183F05420066C71F /* redButton.png */,
+				42AAE439183F05420066C71F /* redButtonPressed.png */,
+				42AAE422183F00980066C71F /* mustardButton.png */,
+				42AAE41C183EFEBA0066C71F /* mustardButtonPressed.png */,
+				42AAE43F183F09E30066C71F /* limeButton.png */,
+				42AAE426183F01C60066C71F /* limeButtonPressed.png */,
+				42AAE441183F09FB0066C71F /* greenButton.png */,
+				42AAE42C183F05370066C71F /* greenButtonPressed.png */,
+				42AAE443183F0A330066C71F /* tourquoiseButton.png */,
+				42AAE42A183F05370066C71F /* tourquoiseButtonPressed.png */,
+				42AAE445183F0A3D0066C71F /* blueButton.png */,
+				42AAE430183F05370066C71F /* blueButtonPressed.png */,
+				42AAE43D183F08FC0066C71F /* purpleButton.png */,
+				42AAE42F183F05370066C71F /* purpleButtonPressed.png */,
+			);
+			name = "Button Images";
+			sourceTree = "<group>";
+		};
 		42F7D6BF183982C400B12FEC = {
 			isa = PBXGroup;
 			children = (
@@ -134,13 +187,10 @@
 			isa = PBXGroup;
 			children = (
 				42AAE40D183EB5100066C71F /* Sound Fonts */,
-				42F7D7001839845900B12FEC /* scratch.png */,
-				42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */,
-				42F7D7041839A76E00B12FEC /* scratchButton.png */,
-				42F7D7061839AB1700B12FEC /* scratchButtonPressed.png */,
+				42AAE428183F04850066C71F /* Button Images */,
+				42F7D6DD183982C500B12FEC /* Main.storyboard */,
 				42F7D6DA183982C500B12FEC /* SCAppDelegate.h */,
 				42F7D6DB183982C500B12FEC /* SCAppDelegate.m */,
-				42F7D6DD183982C500B12FEC /* Main.storyboard */,
 				42F7D6E0183982C500B12FEC /* SCViewController.h */,
 				42F7D6E1183982C500B12FEC /* SCViewController.m */,
 				42A72D10183BD49300B9B63A /* SCAudioController.h */,
@@ -258,12 +308,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F7D6E4183982C500B12FEC /* Images.xcassets in Resources */,
+				42AAE438183F05370066C71F /* blueButtonPressed.png in Resources */,
 				42F7D7051839A76E00B12FEC /* scratchButton.png in Resources */,
 				42F7D6D6183982C500B12FEC /* InfoPlist.strings in Resources */,
+				42AAE437183F05370066C71F /* purpleButtonPressed.png in Resources */,
+				42AAE446183F0A3D0066C71F /* blueButton.png in Resources */,
 				42AAE40F183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 in Resources */,
+				42AAE43B183F05420066C71F /* redButtonPressed.png in Resources */,
+				42AAE427183F01C60066C71F /* limeButtonPressed.png in Resources */,
+				42AAE440183F09E30066C71F /* limeButton.png in Resources */,
+				42AAE423183F00980066C71F /* mustardButton.png in Resources */,
+				42AAE41D183EFEBA0066C71F /* mustardButtonPressed.png in Resources */,
 				42F7D7011839845900B12FEC /* scratch.png in Resources */,
+				42AAE43E183F08FC0066C71F /* purpleButton.png in Resources */,
 				42F7D6DF183982C500B12FEC /* Main.storyboard in Resources */,
+				42AAE43C183F05420066C71F /* redButton.png in Resources */,
+				42AAE442183F09FB0066C71F /* greenButton.png in Resources */,
+				42AAE434183F05370066C71F /* greenButtonPressed.png in Resources */,
 				42A88CC6183AFAE20053A7B4 /* scratchFullSet.png in Resources */,
+				42AAE444183F0A330066C71F /* tourquoiseButton.png in Resources */,
+				42AAE432183F05370066C71F /* tourquoiseButtonPressed.png in Resources */,
 				42F7D7071839AB1700B12FEC /* scratchButtonPressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
