@@ -94,6 +94,189 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="84" y="269"/>
+        </scene>
+        <!--Sound Scape View Controller-->
+        <scene sceneID="jUM-RB-oRS">
+            <objects>
+                <viewController id="0AU-kd-bOz" customClass="SCSoundScapeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k4I-SF-Adk"/>
+                        <viewControllerLayoutGuide type="bottom" id="AST-4i-e2W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rze-Ak-0Dg">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="nol-2k-WQc">
+                                <rect key="frame" x="28" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z4x-0l-Hwg">
+                                <rect key="frame" x="28" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJH-xe-Amo">
+                                <rect key="frame" x="28" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h2N-4b-tq2">
+                                <rect key="frame" x="28" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTf-Rb-Bb8">
+                                <rect key="frame" x="28" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5gq-yb-bYZ">
+                                <rect key="frame" x="92" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h1w-ma-yqQ">
+                                <rect key="frame" x="92" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOq-mz-ZWe">
+                                <rect key="frame" x="92" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0V-YP-HUb">
+                                <rect key="frame" x="92" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QEa-Dk-MIL">
+                                <rect key="frame" x="92" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VtS-C4-2wI">
+                                <rect key="frame" x="156" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHU-EN-f9D">
+                                <rect key="frame" x="156" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocP-En-uhH">
+                                <rect key="frame" x="156" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwc-jP-qHI">
+                                <rect key="frame" x="156" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZXE-pv-36l">
+                                <rect key="frame" x="156" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXL-vb-wi1">
+                                <rect key="frame" x="220" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UCk-Dy-pex">
+                                <rect key="frame" x="220" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OUX-cI-EwQ">
+                                <rect key="frame" x="220" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gc3-KS-R8U">
+                                <rect key="frame" x="220" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g1d-tf-fIp">
+                                <rect key="frame" x="220" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iTb-0c-pxu">
+                                <rect key="frame" x="284" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2zq-h1-Oh0">
+                                <rect key="frame" x="284" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgV-3r-B4W">
+                                <rect key="frame" x="284" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YDn-v8-c3m">
+                                <rect key="frame" x="284" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3yb-v8-LlT">
+                                <rect key="frame" x="284" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXp-pR-NqO">
+                                <rect key="frame" x="348" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40L-17-tlv">
+                                <rect key="frame" x="348" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whk-st-2LF">
+                                <rect key="frame" x="348" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zcD-NX-iQ6">
+                                <rect key="frame" x="348" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kkl-lW-f9a">
+                                <rect key="frame" x="348" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kKW-Yw-Dbt">
+                                <rect key="frame" x="412" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ib8-Uh-Pry">
+                                <rect key="frame" x="412" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wxD-KH-9RD">
+                                <rect key="frame" x="412" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OEu-St-ggY">
+                                <rect key="frame" x="412" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5d-WM-XFr">
+                                <rect key="frame" x="412" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNI-cK-vL1">
+                                <rect key="frame" x="476" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQb-yL-1dx">
+                                <rect key="frame" x="476" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q51-7Y-x2Z">
+                                <rect key="frame" x="476" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mjN-MK-qBh">
+                                <rect key="frame" x="476" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="cYC-se-goh">
+                                <rect key="frame" x="476" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MI0-PS-Zdc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752" y="262"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="U4n-kM-DkU">
@@ -121,18 +304,208 @@
             </objects>
             <point key="canvasLocation" x="84" y="-178"/>
         </scene>
+        <!--Sound Scape View Controller-->
+        <scene sceneID="K3E-Gc-89x">
+            <objects>
+                <viewController id="CnE-ag-pRK" customClass="SCSoundScapeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bSd-Yc-YrH"/>
+                        <viewControllerLayoutGuide type="bottom" id="zoc-Ov-Zk7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s9s-os-YiA">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="uR9-Bw-BxO">
+                                <rect key="frame" x="44" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="eTy-iK-kPp">
+                                <rect key="frame" x="44" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="6xw-Tw-0rD">
+                                <rect key="frame" x="44" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="VNz-HD-SJy">
+                                <rect key="frame" x="44" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="JyY-X2-KxO">
+                                <rect key="frame" x="44" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="2js-wa-BYh">
+                                <rect key="frame" x="104" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="NL2-m2-Pnh">
+                                <rect key="frame" x="104" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="lC4-06-FOq">
+                                <rect key="frame" x="104" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="ght-gp-mfz">
+                                <rect key="frame" x="104" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="EHM-pX-vWm">
+                                <rect key="frame" x="104" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="mxX-Hf-dTj">
+                                <rect key="frame" x="164" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="rjz-QT-zpl">
+                                <rect key="frame" x="164" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="hcg-1Z-iR7">
+                                <rect key="frame" x="164" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="qm2-Mk-eae">
+                                <rect key="frame" x="164" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="RCF-aM-paM">
+                                <rect key="frame" x="164" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="KmW-iY-6oR">
+                                <rect key="frame" x="224" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="rMx-o7-7Zy">
+                                <rect key="frame" x="224" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ck6-Xd-aCW">
+                                <rect key="frame" x="224" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="4OD-NO-uzE">
+                                <rect key="frame" x="224" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="W61-Hn-Zj3">
+                                <rect key="frame" x="224" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="JtN-D3-5JQ">
+                                <rect key="frame" x="284" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="ja7-vE-XWn">
+                                <rect key="frame" x="284" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="GsS-HX-iee">
+                                <rect key="frame" x="284" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="uG1-7r-Uw7">
+                                <rect key="frame" x="284" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="zUB-PT-rPE">
+                                <rect key="frame" x="284" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="7At-ha-I5F">
+                                <rect key="frame" x="344" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="wFs-1x-3oI">
+                                <rect key="frame" x="344" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="7rD-gS-IlL">
+                                <rect key="frame" x="344" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="4I0-TX-sUf">
+                                <rect key="frame" x="344" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="TJ8-3e-Tce">
+                                <rect key="frame" x="344" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="5O3-e7-aAp">
+                                <rect key="frame" x="404" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="jpZ-Zf-dKG">
+                                <rect key="frame" x="404" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="dBm-3G-MFD">
+                                <rect key="frame" x="404" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="YEu-Y7-6y1">
+                                <rect key="frame" x="404" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="bJx-16-vo7">
+                                <rect key="frame" x="404" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="YeK-Th-8EE">
+                                <rect key="frame" x="464" y="10" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="3RP-fD-eHb">
+                                <rect key="frame" x="464" y="70" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="zSI-k6-jPB">
+                                <rect key="frame" x="464" y="130" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="I0f-It-dAU">
+                                <rect key="frame" x="464" y="190" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="qdM-du-Pl5">
+                                <rect key="frame" x="464" y="250" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QEV-W8-mAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-178"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="blueButton.png" width="120" height="120"/>
+        <image name="blueButtonPressed.png" width="120" height="120"/>
+        <image name="greenButton.png" width="120" height="120"/>
+        <image name="greenButtonPressed.png" width="120" height="120"/>
         <image name="limeButton.png" width="120" height="120"/>
         <image name="limeButtonPressed.png" width="120" height="120"/>
         <image name="mustardButton.png" width="120" height="120"/>
         <image name="mustardButtonPressed.png" width="120" height="120"/>
         <image name="purpleButton.png" width="120" height="120"/>
         <image name="purpleButtonPressed.png" width="120" height="120"/>
+        <image name="redButton.png" width="120" height="120"/>
+        <image name="redButtonPressed.png" width="120" height="120"/>
         <image name="scratch.png" width="1136" height="640"/>
         <image name="scratchButton.png" width="120" height="120"/>
         <image name="scratchButtonPressed.png" width="120" height="120"/>
         <image name="scratchFullSet.png" width="1136" height="640"/>
+        <image name="tourquoiseButton.png" width="120" height="120"/>
+        <image name="tourquoiseButtonPressed.png" width="120" height="120"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

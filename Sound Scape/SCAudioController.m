@@ -321,7 +321,7 @@
     
     // Specify that this object is the delegate of the audio session, so that
     //    this object's endInterruption method will be invoked when needed.
-//dep.    [mySession setDelegate: self];
+//deprecated:    [mySession setDelegate: self];
     
     // Assign the Playback category to the audio session. This category supports
     //    audio output with the Ring/Silent switch in the Silent position.
@@ -332,7 +332,7 @@
     // Request a desired hardware sample rate.
     self.graphSampleRate = 44100.0;    // Hertz
     
-//dep.    [mySession setPreferredHardwareSampleRate: self.graphSampleRate error: &audioSessionError];
+//deprecated:    [mySession setPreferredHardwareSampleRate: self.graphSampleRate error: &audioSessionError];
     if (audioSessionError != nil) {NSLog (@"Error setting preferred hardware sample rate."); return NO;}
     
     // Activate the audio session
@@ -340,7 +340,7 @@
     if (audioSessionError != nil) {NSLog (@"Error activating the audio session."); return NO;}
     
     // Obtain the actual hardware sample rate and store it for later use in the audio processing graph.
-//dep.    self.graphSampleRate = [mySession currentHardwareSampleRate];
+//deprecated:    self.graphSampleRate = [mySession currentHardwareSampleRate];
     
     return YES;
 }

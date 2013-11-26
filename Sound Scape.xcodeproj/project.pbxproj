@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42739D0718445D8E00EE781E /* SCSoundScapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42739D0618445D8E00EE781E /* SCSoundScapeViewController.m */; };
 		42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A72D11183BD49300B9B63A /* SCAudioController.m */; };
 		42A88CC6183AFAE20053A7B4 /* scratchFullSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */; };
 		42AAE40F183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE40E183EB5380066C71F /* GUGS_Fluid_v1_44.sf2 */; };
@@ -54,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42739D0518445D8E00EE781E /* SCSoundScapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSoundScapeViewController.h; sourceTree = "<group>"; };
+		42739D0618445D8E00EE781E /* SCSoundScapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSoundScapeViewController.m; sourceTree = "<group>"; };
 		42A72D10183BD49300B9B63A /* SCAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAudioController.h; sourceTree = "<group>"; };
 		42A72D11183BD49300B9B63A /* SCAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAudioController.m; sourceTree = "<group>"; };
 		42A88CC5183AFAE20053A7B4 /* scratchFullSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scratchFullSet.png; sourceTree = "<group>"; };
@@ -195,6 +198,8 @@
 				42F7D6E1183982C500B12FEC /* SCViewController.m */,
 				42A72D10183BD49300B9B63A /* SCAudioController.h */,
 				42A72D11183BD49300B9B63A /* SCAudioController.m */,
+				42739D0518445D8E00EE781E /* SCSoundScapeViewController.h */,
+				42739D0618445D8E00EE781E /* SCSoundScapeViewController.m */,
 				42F7D6E3183982C500B12FEC /* Images.xcassets */,
 				42F7D6D2183982C500B12FEC /* Supporting Files */,
 			);
@@ -350,6 +355,7 @@
 				42F7D6DC183982C500B12FEC /* SCAppDelegate.m in Sources */,
 				42F7D6E2183982C500B12FEC /* SCViewController.m in Sources */,
 				42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */,
+				42739D0718445D8E00EE781E /* SCSoundScapeViewController.m in Sources */,
 				42F7D6D8183982C500B12FEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
