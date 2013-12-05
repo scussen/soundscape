@@ -46,7 +46,6 @@
 #pragma mark -
 #pragma mark Audio setup
 
-
 // Create an audio processing graph.
 - (BOOL) createAUGraph {
     
@@ -181,7 +180,7 @@
 }
 
 
-// Starting with instantiated audio processing graph, configure its
+// With an instantiated audio processing graph, configure
 // audio units, initialize it, and start it.
 - (void) configureAndStartAudioProcessingGraph: (AUGraph) graph {
     
@@ -217,7 +216,7 @@
     
     if (result != noErr) NSLog (@"Unable to retrieve the maximum frames per slice property from the I/O unit. Error code: %d", (int) result);
     
-    // Set the Sampler unit's output sample rate.
+    // Set the first Sampler unit's output sample rate.
     result =    AudioUnitSetProperty (
                                       self.samplerUnit,
                                       kAudioUnitProperty_SampleRate,
@@ -226,10 +225,9 @@
                                       &_graphSampleRate,
                                       sampleRatePropertySize
                                       );
-    
     if (result != noErr) NSLog (@"AudioUnitSetProperty (set Sampler unit output stream sample rate). Error code: %d", (int) result);
     
-    // Set the Sampler unit's maximum frames-per-slice.
+    // Set the first Sampler unit's maximum frames-per-slice.
     result =    AudioUnitSetProperty (
                                       self.samplerUnit,
                                       kAudioUnitProperty_MaximumFramesPerSlice,
@@ -238,7 +236,28 @@
                                       &framesPerSlice,
                                       framesPerSlicePropertySize
                                       );
+    if (result != noErr) NSLog (@"AudioUnitSetProperty (set Sampler unit maximum frames per slice). Error code: %d", (int) result);
     
+    // Set the second Sampler unit's output sample rate.
+    result =    AudioUnitSetProperty (
+                                      self.samplerUnit2,
+                                      kAudioUnitProperty_SampleRate,
+                                      kAudioUnitScope_Output,
+                                      0,
+                                      &_graphSampleRate,
+                                      sampleRatePropertySize
+                                      );
+    if (result != noErr) NSLog (@"AudioUnitSetProperty (set Sampler unit output stream sample rate). Error code: %d", (int) result);
+    
+    // Set the second Sampler unit's maximum frames-per-slice.
+    result =    AudioUnitSetProperty (
+                                      self.samplerUnit2,
+                                      kAudioUnitProperty_MaximumFramesPerSlice,
+                                      kAudioUnitScope_Global,
+                                      0,
+                                      &framesPerSlice,
+                                      framesPerSlicePropertySize
+                                      );
     if (result != noErr) NSLog (@"AudioUnitSetProperty (set Sampler unit maximum frames per slice). Error code: %d", (int) result);
     
     
