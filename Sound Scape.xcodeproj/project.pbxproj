@@ -33,7 +33,6 @@
 		42F7D6D8183982C500B12FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6D7183982C500B12FEC /* main.m */; };
 		42F7D6DC183982C500B12FEC /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6DB183982C500B12FEC /* SCAppDelegate.m */; };
 		42F7D6DF183982C500B12FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D6DD183982C500B12FEC /* Main.storyboard */; };
-		42F7D6E2183982C500B12FEC /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7D6E1183982C500B12FEC /* SCViewController.m */; };
 		42F7D6E4183982C500B12FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F7D6E3183982C500B12FEC /* Images.xcassets */; };
 		42F7D6EB183982C500B12FEC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6EA183982C500B12FEC /* XCTest.framework */; };
 		42F7D6EC183982C500B12FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CB183982C400B12FEC /* Foundation.framework */; };
@@ -89,8 +88,6 @@
 		42F7D6DA183982C500B12FEC /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
 		42F7D6DB183982C500B12FEC /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
 		42F7D6DE183982C500B12FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		42F7D6E0183982C500B12FEC /* SCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
-		42F7D6E1183982C500B12FEC /* SCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
 		42F7D6E3183982C500B12FEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42F7D6E9183982C500B12FEC /* Sound ScapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound ScapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F7D6EA183982C500B12FEC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -197,14 +194,12 @@
 				42F7D6DD183982C500B12FEC /* Main.storyboard */,
 				42F7D6DA183982C500B12FEC /* SCAppDelegate.h */,
 				42F7D6DB183982C500B12FEC /* SCAppDelegate.m */,
-				42A72D10183BD49300B9B63A /* SCAudioController.h */,
-				42A72D11183BD49300B9B63A /* SCAudioController.m */,
 				42739D0518445D8E00EE781E /* SCSoundScapeViewController.h */,
 				42739D0618445D8E00EE781E /* SCSoundScapeViewController.m */,
+				42A72D10183BD49300B9B63A /* SCAudioController.h */,
+				42A72D11183BD49300B9B63A /* SCAudioController.m */,
 				42F2DDD7185F5F25006DDCF2 /* SCNoteMapDef.h */,
 				42F2DDD8185F5F25006DDCF2 /* SCNoteMapDef.m */,
-				42F7D6E0183982C500B12FEC /* SCViewController.h */,
-				42F7D6E1183982C500B12FEC /* SCViewController.m */,
 				42F7D6E3183982C500B12FEC /* Images.xcassets */,
 				42F7D6D2183982C500B12FEC /* Supporting Files */,
 			);
@@ -358,7 +353,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F7D6DC183982C500B12FEC /* SCAppDelegate.m in Sources */,
-				42F7D6E2183982C500B12FEC /* SCViewController.m in Sources */,
 				42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */,
 				42739D0718445D8E00EE781E /* SCSoundScapeViewController.m in Sources */,
 				42F7D6D8183982C500B12FEC /* main.m in Sources */,

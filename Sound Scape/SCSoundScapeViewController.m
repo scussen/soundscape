@@ -54,7 +54,7 @@ enum {
     int noteIndex = button.tag;
     if (noteIndex > 39) noteIndex = 39;
 //    NSString *noteValueString;
- //   noteValueString = [noteGrid objectAtIndex: button.tag];
+//    noteValueString = [noteGrid objectAtIndex: button.tag];
     noteNum = [[noteGrid objectAtIndex: noteIndex] intValue];
     
 	UInt32 onVelocity = 127;
