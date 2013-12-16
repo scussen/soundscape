@@ -25,6 +25,7 @@
 		42AAE442183F09FB0066C71F /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE441183F09FB0066C71F /* greenButton.png */; };
 		42AAE444183F0A330066C71F /* tourquoiseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE443183F0A330066C71F /* tourquoiseButton.png */; };
 		42AAE446183F0A3D0066C71F /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 42AAE445183F0A3D0066C71F /* blueButton.png */; };
+		42F2DDD9185F5F25006DDCF2 /* SCNoteMapDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F2DDD8185F5F25006DDCF2 /* SCNoteMapDef.m */; };
 		42F7D6CC183982C500B12FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CB183982C400B12FEC /* Foundation.framework */; };
 		42F7D6CE183982C500B12FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CD183982C500B12FEC /* CoreGraphics.framework */; };
 		42F7D6D0183982C500B12FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F7D6CF183982C500B12FEC /* UIKit.framework */; };
@@ -75,6 +76,8 @@
 		42AAE441183F09FB0066C71F /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
 		42AAE443183F0A330066C71F /* tourquoiseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tourquoiseButton.png; sourceTree = "<group>"; };
 		42AAE445183F0A3D0066C71F /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		42F2DDD7185F5F25006DDCF2 /* SCNoteMapDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNoteMapDef.h; sourceTree = "<group>"; };
+		42F2DDD8185F5F25006DDCF2 /* SCNoteMapDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNoteMapDef.m; sourceTree = "<group>"; };
 		42F7D6C8183982C400B12FEC /* Sound Scape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Scape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F7D6CB183982C400B12FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		42F7D6CD183982C500B12FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -194,12 +197,14 @@
 				42F7D6DD183982C500B12FEC /* Main.storyboard */,
 				42F7D6DA183982C500B12FEC /* SCAppDelegate.h */,
 				42F7D6DB183982C500B12FEC /* SCAppDelegate.m */,
-				42F7D6E0183982C500B12FEC /* SCViewController.h */,
-				42F7D6E1183982C500B12FEC /* SCViewController.m */,
 				42A72D10183BD49300B9B63A /* SCAudioController.h */,
 				42A72D11183BD49300B9B63A /* SCAudioController.m */,
 				42739D0518445D8E00EE781E /* SCSoundScapeViewController.h */,
 				42739D0618445D8E00EE781E /* SCSoundScapeViewController.m */,
+				42F2DDD7185F5F25006DDCF2 /* SCNoteMapDef.h */,
+				42F2DDD8185F5F25006DDCF2 /* SCNoteMapDef.m */,
+				42F7D6E0183982C500B12FEC /* SCViewController.h */,
+				42F7D6E1183982C500B12FEC /* SCViewController.m */,
 				42F7D6E3183982C500B12FEC /* Images.xcassets */,
 				42F7D6D2183982C500B12FEC /* Supporting Files */,
 			);
@@ -357,6 +362,7 @@
 				42A72D12183BD49300B9B63A /* SCAudioController.m in Sources */,
 				42739D0718445D8E00EE781E /* SCSoundScapeViewController.m in Sources */,
 				42F7D6D8183982C500B12FEC /* main.m in Sources */,
+				42F2DDD9185F5F25006DDCF2 /* SCNoteMapDef.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface SCSoundScapeViewController : UIViewController
-
+- (IBAction)startNotePlay:(id)sender;
+- (IBAction)stopNotePlay:(id)sender;
 @end

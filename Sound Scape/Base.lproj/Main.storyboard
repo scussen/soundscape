@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wVt-Fr-TjU">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -112,155 +112,155 @@
                                 <rect key="frame" x="28" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z4x-0l-Hwg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="z4x-0l-Hwg">
                                 <rect key="frame" x="28" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cJH-xe-Amo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="cJH-xe-Amo">
                                 <rect key="frame" x="28" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h2N-4b-tq2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="h2N-4b-tq2">
                                 <rect key="frame" x="28" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uTf-Rb-Bb8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="uTf-Rb-Bb8">
                                 <rect key="frame" x="28" y="256" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5gq-yb-bYZ">
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="5gq-yb-bYZ">
                                 <rect key="frame" x="92" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h1w-ma-yqQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="h1w-ma-yqQ">
                                 <rect key="frame" x="92" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOq-mz-ZWe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="VOq-mz-ZWe">
                                 <rect key="frame" x="92" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o0V-YP-HUb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="o0V-YP-HUb">
                                 <rect key="frame" x="92" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QEa-Dk-MIL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="QEa-Dk-MIL">
                                 <rect key="frame" x="92" y="256" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VtS-C4-2wI">
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="VtS-C4-2wI">
                                 <rect key="frame" x="156" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JHU-EN-f9D">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="JHU-EN-f9D">
                                 <rect key="frame" x="156" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ocP-En-uhH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="ocP-En-uhH">
                                 <rect key="frame" x="156" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cwc-jP-qHI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cwc-jP-qHI">
                                 <rect key="frame" x="156" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZXE-pv-36l">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZXE-pv-36l">
                                 <rect key="frame" x="156" y="256" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fXL-vb-wi1">
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="fXL-vb-wi1">
                                 <rect key="frame" x="220" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UCk-Dy-pex">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="UCk-Dy-pex">
                                 <rect key="frame" x="220" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OUX-cI-EwQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="OUX-cI-EwQ">
                                 <rect key="frame" x="220" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gc3-KS-R8U">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="gc3-KS-R8U">
                                 <rect key="frame" x="220" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g1d-tf-fIp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1d-tf-fIp">
                                 <rect key="frame" x="220" y="256" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iTb-0c-pxu">
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="iTb-0c-pxu">
                                 <rect key="frame" x="284" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2zq-h1-Oh0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="2zq-h1-Oh0">
                                 <rect key="frame" x="284" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgV-3r-B4W">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="zgV-3r-B4W">
                                 <rect key="frame" x="284" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YDn-v8-c3m">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="YDn-v8-c3m">
                                 <rect key="frame" x="284" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3yb-v8-LlT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="3yb-v8-LlT">
                                 <rect key="frame" x="284" y="256" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YXp-pR-NqO">
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="YXp-pR-NqO">
                                 <rect key="frame" x="348" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="40L-17-tlv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="40L-17-tlv">
                                 <rect key="frame" x="348" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whk-st-2LF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="whk-st-2LF">
                                 <rect key="frame" x="348" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zcD-NX-iQ6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="zcD-NX-iQ6">
                                 <rect key="frame" x="348" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kkl-lW-f9a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="kkl-lW-f9a">
                                 <rect key="frame" x="348" y="256" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kKW-Yw-Dbt">
+                            <imageView userInteractionEnabled="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purpleButton.png" highlightedImage="purpleButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="kKW-Yw-Dbt">
                                 <rect key="frame" x="412" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ib8-Uh-Pry">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tourquoiseButton.png" highlightedImage="tourquoiseButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="ib8-Uh-Pry">
                                 <rect key="frame" x="412" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wxD-KH-9RD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="limeButton.png" highlightedImage="limeButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="wxD-KH-9RD">
                                 <rect key="frame" x="412" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OEu-St-ggY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="OEu-St-ggY">
                                 <rect key="frame" x="412" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5d-WM-XFr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="e5d-WM-XFr">
                                 <rect key="frame" x="412" y="256" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNI-cK-vL1">
+                            <imageView userInteractionEnabled="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redButton.png" highlightedImage="redButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="dNI-cK-vL1">
                                 <rect key="frame" x="476" y="0.0" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQb-yL-1dx">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blueButton.png" highlightedImage="blueButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="dQb-yL-1dx">
                                 <rect key="frame" x="476" y="64" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q51-7Y-x2Z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="greenButton.png" highlightedImage="greenButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="Q51-7Y-x2Z">
                                 <rect key="frame" x="476" y="128" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mjN-MK-qBh">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mustardButton.png" highlightedImage="mustardButtonPressed.png" translatesAutoresizingMaskIntoConstraints="NO" id="mjN-MK-qBh">
                                 <rect key="frame" x="476" y="192" width="64" height="64"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -276,7 +276,589 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MI0-PS-Zdc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="84" y="730"/>
+            <point key="canvasLocation" x="750" y="269"/>
+        </scene>
+        <!--Sound Scape View Controller-->
+        <scene sceneID="juH-Jf-MJA">
+            <objects>
+                <viewController id="wVt-Fr-TjU" customClass="SCSoundScapeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6C0-DV-xpl"/>
+                        <viewControllerLayoutGuide type="bottom" id="hRl-b7-hFf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XTs-V1-pOL">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBw-I1-gVp">
+                                <rect key="frame" x="28" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="redButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="redButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="5sn-0P-dXK"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="NL0-GL-7cE"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="BeI-dR-kYC"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="s3d-Qt-i2e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKR-rl-OCr">
+                                <rect key="frame" x="92" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="mustardButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="mustardButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="89x-qA-cMZ"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="uhU-JJ-jCF"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Eb1-kb-K1L"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="MaN-5i-i0h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4S-0J-Y6z">
+                                <rect key="frame" x="156" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="limeButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="limeButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="aNM-Rv-m55"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="i3C-Tq-XFj"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="FQh-Wz-QQz"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="PBJ-7J-nfb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bT2-4W-qj6">
+                                <rect key="frame" x="220" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="greenButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="greenButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="d94-DJ-po2"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="v3e-kg-rCA"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="cK2-GY-6ZA"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="oWi-Jf-Cyt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbA-qS-ES5">
+                                <rect key="frame" x="284" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="tourquoiseButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="tourquoiseButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="X6P-uc-qgN"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="jg6-j4-1aR"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Q74-PY-f1P"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="YcM-Z1-eCa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4O-VU-d6q">
+                                <rect key="frame" x="348" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="blueButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="2iG-IP-aHG"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="SO1-LC-p8g"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="ZST-rH-bYy"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="lxp-EX-kWe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNv-Xe-eXR">
+                                <rect key="frame" x="412" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purpleButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="purpleButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="1kA-er-wl8"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="ZYg-io-B8n"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="51L-WQ-cfn"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="BQI-FK-bFd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyB-RA-RXK">
+                                <rect key="frame" x="476" y="0.0" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="redButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="redButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="4Dy-yR-mJm"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="lLO-aP-e74"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="1v3-CD-AxK"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="qRe-QF-gPT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0c-ix-u8Q">
+                                <rect key="frame" x="156" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="redButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="redButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="82P-lH-efN"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="p95-QW-r1j"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Pij-yo-tNU"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="jH5-AV-sOz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pge-cz-Qig">
+                                <rect key="frame" x="220" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="mustardButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="mustardButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="Lbh-RE-cgz"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="e0R-F2-sUz"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="Q0O-La-CMp"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="xBY-aP-oye"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fu0-rr-ZVy">
+                                <rect key="frame" x="284" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="limeButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="limeButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="Glz-eD-aPW"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="QTK-NM-brM"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="E6X-lq-LeQ"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="ZC4-09-cbd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqU-9r-lh7">
+                                <rect key="frame" x="348" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="greenButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="greenButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="EVM-Du-Yzy"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="IpV-BI-8c1"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Dak-XK-JIX"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="NFW-xk-Jsm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYA-HR-hXd">
+                                <rect key="frame" x="412" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="tourquoiseButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="tourquoiseButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="11h-aY-HDw"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="Olj-sF-HAD"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="101-oY-F2U"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="1qj-4B-DLt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLo-Fz-qa2">
+                                <rect key="frame" x="476" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="blueButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="CeT-MF-h0r"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="y72-IY-nDH"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="5EU-gU-k9u"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="zjY-jz-2Ea"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQ8-24-3Aq">
+                                <rect key="frame" x="284" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="redButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="redButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="SC1-mc-Hgc"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="WM3-gw-Tlh"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="O6i-Cw-Z9d"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="y2D-rQ-nie"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXP-gO-pPy">
+                                <rect key="frame" x="348" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="mustardButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="mustardButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="bYB-S6-U70"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="eJb-TX-Zi2"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="CZH-BH-mRH"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="Rai-0o-t8j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7k-F9-qRF">
+                                <rect key="frame" x="412" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="limeButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="limeButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="BH7-X6-lTU"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="dOa-ps-uwt"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="SFv-68-b4o"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Tkr-XY-L34"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYu-lW-QeC">
+                                <rect key="frame" x="476" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="greenButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="greenButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="Qxh-BY-vKw"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="b28-JO-6TF"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Kwi-2V-HFk"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="tLP-GP-x4y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y33-el-0r2">
+                                <rect key="frame" x="412" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="redButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="redButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="ZIM-jk-BuU"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="poB-bS-oj6"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="3NA-wf-J4D"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="otK-26-tkR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="31" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEc-Jp-cmx">
+                                <rect key="frame" x="476" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="mustardButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="mustardButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="8dB-NI-x5a"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="dlS-hE-GR4"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="rfN-TN-xyt"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="yld-dk-lCZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="33" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APM-xm-GcX">
+                                <rect key="frame" x="92" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="redButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="redButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="WcX-Zc-B3i"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="zaw-7c-h8v"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="kok-MS-sdK"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="wKY-N6-Sxh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="34" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ruy-wg-TgK">
+                                <rect key="frame" x="156" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="mustardButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="mustardButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="C2e-p7-r5j"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="NF4-R5-ffs"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="ROH-BZ-Woa"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="e9C-gH-NXr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="35" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YL4-mV-Bkc">
+                                <rect key="frame" x="220" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="limeButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="limeButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="9Dw-o7-WG4"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="moQ-zT-GY3"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="AA9-i2-j8B"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="BeW-Yx-PSZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="36" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sc5-3g-oIc">
+                                <rect key="frame" x="284" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="greenButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="greenButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="0hl-Vl-8fu"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="nok-Ux-5Oz"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Jwk-29-Y4d"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="QKZ-Pn-mRX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="37" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKT-5M-V8w">
+                                <rect key="frame" x="348" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="tourquoiseButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="tourquoiseButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="aOL-Kq-mI6"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="dqG-AQ-jgP"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="9yA-H1-W0C"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="gmP-Nz-5Ec"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="38" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcx-eP-obZ">
+                                <rect key="frame" x="412" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="blueButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="81O-Ef-3tV"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="Kmz-Ka-V3K"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="2zd-53-bP2"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="zjZ-42-a3L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="39" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00l-Xj-Eqe">
+                                <rect key="frame" x="476" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purpleButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="purpleButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="1Zg-7e-bM0"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="RUH-JU-tKo"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="2ej-vc-feq"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="3YY-Uc-w89"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYI-Nh-PaU">
+                                <rect key="frame" x="28" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="mustardButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="mustardButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="1Mm-BF-KIw"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="NhX-ao-bQP"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="dID-gc-rAh"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="olf-w2-PGt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QL-fc-fwF">
+                                <rect key="frame" x="92" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="limeButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="limeButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="A7I-HQ-Asr"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="Lng-s7-a7x"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="mPG-Uz-A2X"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="vRG-FS-8Pb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="26" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFL-O7-Dhi">
+                                <rect key="frame" x="156" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="greenButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="greenButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="GbQ-el-6W9"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="QZt-gb-7Qz"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="Jhw-AH-hSY"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="Sqm-cP-QNu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="27" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IG-uC-ly3">
+                                <rect key="frame" x="220" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="tourquoiseButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="tourquoiseButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="0DE-Ku-NJb"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="2wd-Fr-Hdc"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="Gyf-Hi-YVB"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="etv-6L-SZE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="28" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ex-Ka-acG">
+                                <rect key="frame" x="284" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="blueButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="JGW-M5-uiM"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="wcb-u3-rQM"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="IBm-9o-25F"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="Rq0-EI-S3P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="29" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCT-is-Ecw">
+                                <rect key="frame" x="348" y="192" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purpleButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="purpleButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="cQr-4q-BJv"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="g9I-X8-HzV"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="9It-JX-eKw"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="VUH-Ei-CzD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="32" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUG-5p-M3f">
+                                <rect key="frame" x="28" y="256" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purpleButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="purpleButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="1Fv-h7-pin"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="HjD-57-8F0"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="EJf-C3-YSJ"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="muh-en-tYu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYx-Uz-Ltn">
+                                <rect key="frame" x="28" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="greenButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="greenButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="i1z-mN-NTb"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="q1p-EU-NCJ"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="5Zb-py-QxD"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="8pd-v4-T6u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDq-bZ-O0W">
+                                <rect key="frame" x="92" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="tourquoiseButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="tourquoiseButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="P6v-nh-qBe"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="toA-r1-Zov"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="F84-ZQ-aoT"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="xUV-69-DC2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAx-Nw-kD5">
+                                <rect key="frame" x="156" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="blueButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="1pz-x4-Kx7"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="Es0-BC-GsM"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="RdT-xs-N5S"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="owA-ef-Sh9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pX-Bd-nV7">
+                                <rect key="frame" x="220" y="128" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purpleButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="purpleButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="5Ns-t9-mAM"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="6KW-sG-uJI"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="6E0-5S-YyH"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="6vx-nC-Krr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hh6-I2-A26">
+                                <rect key="frame" x="28" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blueButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="blueButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="9d5-tc-mlk"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="vCG-vy-12b"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="KQT-id-mMn"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="VFA-Ss-YBv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dD1-y0-Lui">
+                                <rect key="frame" x="92" y="64" width="64" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="purpleButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="purpleButtonPressed.png"/>
+                                <connections>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragEnter" id="Ezf-9g-ubo"/>
+                                    <action selector="startNotePlay:" destination="wVt-Fr-TjU" eventType="touchDown" id="bTE-f4-YMz"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchDragExit" id="OQA-ue-YXt"/>
+                                    <action selector="stopNotePlay:" destination="wVt-Fr-TjU" eventType="touchUpInside" id="pxu-0i-ncc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zTI-eo-yiY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="709"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="U4n-kM-DkU">
