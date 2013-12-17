@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface SCNoteMapDef : NSObject
-//@property (nonatomic, strong) UInt32 *campaignNames;
 @property  (nonatomic, readwrite) NSUInteger NumberOfNoteMaps;
-
 - (NSArray *) loadGrid: (NSInteger) noteMapIndex;
 @end

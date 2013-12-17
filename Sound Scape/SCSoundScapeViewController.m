@@ -51,7 +51,7 @@ enum {
 - (IBAction) startNotePlay:(id)sender {
     UIButton *button = (UIButton*) sender;
     UInt32 noteNum;
-    int noteIndex = button.tag;
+    NSInteger noteIndex = button.tag;
     if (noteIndex > 39) noteIndex = 39;
 //    NSString *noteValueString;
 //    noteValueString = [noteGrid objectAtIndex: button.tag];
@@ -70,7 +70,7 @@ enum {
     UIButton *button = (UIButton*) sender;
     UInt32 noteNum;
     
-    int noteIndex = button.tag;
+    NSInteger noteIndex = button.tag;
     if (noteIndex > 39) noteIndex = 39;
     noteNum = [[noteGrid objectAtIndex: noteIndex] intValue];
     
