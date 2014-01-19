@@ -5,7 +5,7 @@ The Sound Scape demo application builds on the SynthMixDemo application [in the 
 
 Sound Scape displays a ‘keyboard’ of 40 notes [keyboard display](https://github.com/scussen/soundscape/blob/master/Sound%20Scape/scratchFullSet.png) these keys are mapped via a noteMap in the SCSoundScapeViewController’s viewDidLoad method.   In this example the mapping is to Midi Notes in the Key of G (see SCNoteDef.m).  You can see that the code has been built so that it can be easily extended to provide multiple note maps. 
 
-For simplicity, the Sound Scape been built using one instrument (the fiddle) loaded thought the SCAudioController (as used in SynthMixDemo).  We are not using any effects unit pitch adjustment and we don’t need the multichannel mixer for this version (though they are still in there).
+For simplicity, Sound Scape has been built using one instrument (the fiddle) loaded though the SCAudioController (as used in SynthMixDemo).  Sound Scape does not use any effects unit pitch adjustment so the multichannel mixer for this version is not used (though both are still in there).
 
 Features:
 
