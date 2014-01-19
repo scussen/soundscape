@@ -1,7 +1,7 @@
 soundscape
 ==========
 
-The Sound Scape demo application builds on the SynthMixDemo application (in repo…)
+The Sound Scape demo application builds on the SynthMixDemo application [in the repo...](https://github.com/scussen/synthmixerdemo)
 
 Sound Scape displays a ‘keyboard’ of 40 notes [keyboard display](scratchFullSet.png) these keys are mapped via a noteMap in the SCSoundScapeViewController’s viewDidLoad method.   In this example the mapping is to Midi Notes in the Key of G (see SCNoteDef.m).  You can see that the code has been built so that it can be easily extended to provide multiple note maps. 
 
@@ -16,7 +16,11 @@ Features:
 - Multiple keyboard notes can be played at once
  
 Licence info:
-•	The GeneralUser GS sound font is from S. Christian Collins where you will find his current licence
+
+- The GeneralUser GS sound font is from [S. Christian Collins](http://www.schristiancollins.com/generaluser.php) where you will find his current licence
+
+
 Presentation:
-My slide deck for the Dec 6th, 2013 'Intro To iOS Core Audio' presentation for the Cocoa Conspiracy is here on Slide Share
+
+- My slide deck for the Dec 6th, 2013 'Intro To iOS Core Audio' presentation for the Cocoa Conspiracy is here on [Slide Share](http://www.slideshare.net/slideshow/embed_code/29184534)
 
